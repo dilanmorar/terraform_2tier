@@ -3,7 +3,12 @@ variable "Name" {
   default = "Eng48-dilan-app"
 }
 
-variable "ami-id" {
+variable "app-ami-id" {
   type = string
-  default = "ami-0c796dc8f5acf4c08"
+  default = "ami-023f86d8d93d4aade"
+}
+
+variable "db-ami-id" {
+  type = string
+  default = "ami-004bb45deb4d73ed5"
 }
